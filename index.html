@@ -117,7 +117,65 @@
   </header>
   <main>
     <!-- Deal the day  -->
-    
+    <section class="container  mx-auto my-16">
+      <div class="flex justify-between">
+        <div class="">
+          <h3 class="text-5xl font-extrabold">Deal of the day</h3>
+          <p class="text-base font-medium pt-8">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+        <div class=" "> 
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:15;"></span>
+              </span>
+              days
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:10;"></span>
+              </span>
+              hours
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:24;"></span>
+              </span>
+              min
+            </div> 
+            <div class="flex flex-col">
+              <span class="countdown font-mono text-5xl">
+                <span style="--value:52;"></span>
+              </span>
+              sec
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cards -->
+      <div class="grid grid-cols-4 my-10">
+        <div class="card w-96 bg-base-100 shadow-xl">
+          <figure><img src="/images/fruit1.png" alt="Shoes" /></figure>
+          <div class="card-body text-center">
+            <h2 class="text-2xl font-bold ">12.90$ - 18.85$</h2>
+            <hr>
+            <p class="text-xl">Apple</p>
+            <!-- ratings -->
+            <div class="rating mx-auto text-center my-5">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <!-- button -->
+            <div class="card-actions justify-center">
+              <a href=""> <button class="text-red-500">Details</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 
